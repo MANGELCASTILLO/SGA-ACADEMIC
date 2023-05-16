@@ -49,9 +49,25 @@
                       <button onclick="ocultarContenido()">Volver</button>
                 </div>
             </div>
-            <div id="MHorario" class="oculto">
+            <div id="MHorarioYMaterias" class="oculto">
                 <div class="ModuloC">
-                    <button onclick="ocultarContenido1()">Volver</button>
+                    <form>
+                        <label for="codigo">Código de la materia:</label>
+                        <input type="text" id="codigo" name="codigo" required>
+                      
+                        <label for="nombre">Nombre de la materia:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                      
+                        <label for="nota">Nota final:</label>
+                        <input type="number" id="nota" name="nota" min="0" max="100" required>
+                      
+                        <label for="faltas">Faltas:</label>
+                        <input type="number" id="faltas" name="faltas" min="0" required>
+                      
+                        <input type="submit" value="Agregar">
+                      </form>
+                      
+                      <button class="volver" onclick="ocultarContenido()">Volver</button>
                 </div>
             </div>
             <div id="MUsuarios" class="oculto">

@@ -17,7 +17,7 @@ function mostrarContenido() {
   
   function mostrarContenido1() {
   
-    var contenido = document.getElementById("MHorario");
+    var contenido = document.getElementById("MHorarioYMaterias");
     contenido.classList.remove("oculto");
   
     document.getElementById('ModuloAD').style.display = 'none';
@@ -26,7 +26,7 @@ function mostrarContenido() {
   
   function ocultarContenido1() {
   
-    var contenido = document.getElementById("MHorario");
+    var contenido = document.getElementById("MHorarioYMaterias");
     contenido.classList.add("oculto");
   
     document.getElementById('ModuloAD').style.display = "block";

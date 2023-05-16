@@ -120,9 +120,9 @@ body{
   }
   
   .checkmark {
-    position: relative; /* Cambiado a "relative" */
-    width: 12px; /* Reducir el tamaño del botón de opción */
-    height: 12px; /* Reducir el tamaño del botón de opción */
+    position: relative;
+    width: 16px;
+    height: 16px;
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 50%;
@@ -139,6 +139,10 @@ body{
   
   .checkmark:after {
     content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: block;
     height: 8px;
     width: 8px;
@@ -148,13 +152,6 @@ body{
   
   .radio-button-label input:checked ~ .checkmark:after {
     display: block;
-  }
-  
-  .radio-button-label .checkmark:after {
-    top: 2px;
-    left: 2px;
-    border-radius: 50%;
-    background: white;
   }
   
   .filas-alineadas td:first-child {

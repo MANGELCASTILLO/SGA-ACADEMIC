@@ -101,7 +101,7 @@ body{
   }
   
   .filas-alineadas td {
-    text-align: center;
+    text-align: left;
   }
   
   .radio-button-label {
@@ -140,8 +140,8 @@ body{
   .checkmark:after {
     content: "";
     display: block;
-    height: 6px;
-    width: 6px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background: white;
   }

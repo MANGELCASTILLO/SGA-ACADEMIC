@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Loguin1.css">
+</head>
+
+<body>
+    <div class="Superior">
+        <img src="../Galeria/logo SGA.png" alt="Logo" class="logo">
+    </div>
+    <main>
+        <div class="parte1">
+            <form class="form" method="POST" action="login.php">
+                <label for="Correo">Correo Electrónico:</label>
+                <br><br>
+                <input type="text" id="Correo" name="Correo" value="">
+                <br><br>
+                <label for="Contraseña">Contraseña:</label>
+                <br><br>
+                <input type="password" id="Contraseña" name="Contraseña" value="">
+                <br><br>
+                <button class="Entrar" type="submit">Enviar</button>
+            </form>
+            <div id="mensaje"></div>
+            <script>
+                // Check if there is an error message in the URL query string
+                const urlParams = new URLSearchParams(window.location.search);
+                const errorMessage = urlParams.get('mensaje');
+
+                // If there is an error message, display it
+                if (errorMessage) {
+                    const errorDiv = document.getElementById('mensaje');
+                    errorDiv.innerHTML = errorMessage;
+                    errorDiv.style.display = 'block';
+                    
+                }
+            </script>
+        </div>
+    </main>
+</body>
+
+</html>

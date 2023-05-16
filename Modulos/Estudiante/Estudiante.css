@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(rgb(64, 147, 255), rgb(236, 236, 236));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Superior{
+    background: linear-gradient(rgb(182, 182, 182), rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 150px;
+  }
+
+  #ModuloEstudiante{
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 1450px;
+    top: 250px;
+    position: absolute;
+    margin: auto;
+    display: block;
+  }
+
+  #ModuloE{
+    border-style: double;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+ #ModuloE a{
+    color: black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 60px;
+  }
+
+  #ModuloE a:last-child{
+    margin-right: 0;
+  }
+
+  #ModuloE a:first-child{
+    margin-left: 40px;
+  }
+
+  #ModuloE img{
+ width: 120px;
+  }
+
+.oculto{
+  display: none;
+}
+
+.aparecer{
+  display: block;
+}
+
+
+  .ModuloC{
+    border-style: double;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+
+
+

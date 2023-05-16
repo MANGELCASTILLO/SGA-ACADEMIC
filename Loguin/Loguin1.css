@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(rgb(64, 147, 255), rgb(236, 236, 236));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Superior{
+    background: linear-gradient(rgb(182, 182, 182), rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 150px;
+  }
+
+  .parte1{
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 1450px;
+    top: 250px;
+    position: absolute;
+    margin: auto;
+    display: block;
+  }
+
+  .form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form input{
+    width: 250px;
+    height: 25px;
+  }
+
+  .espacio{
+    padding: 200px;
+  }
+
+  .Entrar{
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+   button:hover {
+    background-color: #15b600;
+  }
+
+   button{
+    margin-top: 230px;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 50px;
+  }
+
+  #mensaje {
+    margin-top: 220px;
+    border-style: groove;
+    background-color: rgb(255, 205, 205);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+ 
+
+  
+ 

@@ -1,0 +1,283 @@
+body{
+    background: linear-gradient(rgb(161, 161, 161), rgb(236, 236, 236));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Superior{
+    background: linear-gradient(rgb(0, 38, 255), rgb(255, 255, 255));
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 100px;
+}
+
+nav{
+    background: linear-gradient(rgb(255, 206, 82), rgb(255, 170, 0));
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    position: absolute;
+    top: 115px;
+    left: 0;
+    padding-right: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: -110px;
+    height: 100px;
+  }
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.menu li {
+    display: inline-block;
+  }
+  
+.menu li:last-child {
+    margin-right: 0;
+  }
+
+  .menu li:first-child {
+    margin-left: 115px;
+  }
+
+  nav a {
+    display: block;
+    margin-right: -5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #eee;
+  }
+
+  .menu{
+    padding: 0px 380px;
+  }
+
+ .login {
+    float: right;
+  }
+
+#Inicio{
+  display: block;
+}
+
+#Plataforma{
+  display: none;
+}
+
+
+  .Parte{
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+  }
+
+  .contenido h1:first-child {
+    margin-top: 200px;
+  }
+  
+  .contenido h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .parrafo p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .BOTONES{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BOTONES a{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: green;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    color: white;
+  }
+
+  .BOTONES a:last-child {
+    margin-top: 20px;
+  }
+
+  .BOTONES a:hover {
+    background-color: #15b600;
+  }
+
+  .contenido2 h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+  }
+
+
+  .BOTONES2 a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    border: none;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: white;
+  }
+
+  .BOTONES2 a:last-child{
+    float: right;
+  }
+
+  .BOTONES2 a:hover {
+    background-color: #15b600;
+  }
+
+  .espacio{
+    padding: 20px;
+  }
+
+  .espacio2{
+    padding: 10px;
+  }
+
+  .espacio3{
+    padding: 5px;
+  }
+  
+.Divs{
+  position: relative;
+  height: 300px;
+}
+
+  .Parte2{
+    background: linear-gradient(rgb(90, 131, 207), rgb(184, 209, 255));
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    width: 1450px;
+    position: absolute;
+    left: -10px;
+    margin: auto;
+    display: block;
+  }
+
+  .Contenido2{
+     margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+
+  .Contenido2 article h1{
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .parrafo2 li{
+    line-height: 1.5;
+    font-size: 15px;
+  }
+
+  .Parte3{
+    background: linear-gradient(rgb(161, 161, 161), rgb(236, 236, 236));
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    width: 1450px;
+    position: absolute;
+    top: 970px;
+    left: -10px;
+    margin: auto;
+    display: block;
+  }
+
+  .contenido3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    display: flex;
+  }
+
+  .columna1{
+    width: 50%;
+    margin-right: 40px;
+  }
+
+  .columna1 p{
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .columna1 li{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .columna2{
+    width: 50%;
+  }
+
+  .columna2 p{
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .columna2 li{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .BOTONES3 a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    border: none;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: white;
+  }
+
+  .BOTONES3 a:hover {
+    background-color: #15b600;
+  }
+
+  .CONTENIDO4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-top: -15px;
+  }
+
+  .CONTENIDO4 p{
+    font-size: 17px;
+  }
+
+
+
+
+
+
+

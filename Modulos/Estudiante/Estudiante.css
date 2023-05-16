@@ -118,7 +118,7 @@ body{
   
   .radio-button-label input:checked ~ .checkmark {
     background-color: #007bff;
-    border: 2px solid #007bff;
+    border: 2px solid #ccc;
   }
   
   .checkmark:after {

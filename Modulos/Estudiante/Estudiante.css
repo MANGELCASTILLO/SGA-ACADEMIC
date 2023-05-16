@@ -86,28 +86,30 @@ body{
   }
 
   .table {
+    width: 100%;
     border-collapse: collapse;
-    background-color: rgb(212, 212, 212);
   }
   
   .table th, .table td {
     padding: 8px;
     text-align: left;
-  }
-
-  .filas-alineadas td {
-    text-align: center;
+    vertical-align: middle; /* Alineación vertical */
   }
   
   .table th {
     background-color: #f2f2f2;
   }
   
+  .materias-column {
+    text-align: right;
+  }
+  
   .radio-button-label {
     position: relative;
-    display: inline-block;
+    display: flex; /* Para alinear verticalmente */
+    align-items: center; /* Alinear verticalmente */
     cursor: pointer;
-    padding-left: 10px;
+    padding-left: 35px;
     margin-bottom: 8px;
     font-size: 16px;
     user-select: none;
@@ -120,9 +122,7 @@ body{
   }
   
   .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative; /* Cambiado a "relative" */
     height: 20px;
     width: 20px;
     background-color: #fff;
@@ -136,7 +136,7 @@ body{
   
   .radio-button-label input:checked ~ .checkmark {
     background-color: #007bff;
-    border: 2px solid #ccc;
+    border: 2px solid #007bff;
   }
   
   .checkmark:after {

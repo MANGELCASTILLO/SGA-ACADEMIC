@@ -68,6 +68,18 @@ function ocultarContenido3() {
   document.getElementById('ModuloE').style.display = "block";
 }
 
+const radioButtons = document.querySelectorAll('.radio-button');
+
+radioButtons.forEach(radioButton => {
+  radioButton.addEventListener('change', function() {
+    radioButtons.forEach(otherRadioButton => {
+      if (otherRadioButton !== this) {
+        otherRadioButton.checked = false;
+      }
+    });
+  });
+});
+
 
 
 

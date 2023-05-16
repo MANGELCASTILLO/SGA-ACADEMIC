@@ -108,7 +108,6 @@ body{
     display: flex; /* Para alinear verticalmente */
     align-items: center; /* Alinear verticalmente */
     cursor: pointer;
-    padding-left: 35px;
     margin-bottom: 8px;
     font-size: 16px;
     user-select: none;

@@ -11,43 +11,45 @@
             <img src="../../Galeria/logo SGA.png" alt="Logo" class="logo">
         </div>
         <main>
-            <div id="ModuloAdministrador" >
+            <div id="ModuloAdministrador">
                 <div id="ModuloAD" class="aparecer">
-                <a href="#" onclick="mostrarContenido()">
-                            <img
-                                src="../../Galeria/Calificaciones.png" alt="calificaciones">
-                                <br>
-                            Calificaciones
-                        </a>
-                        <a href="#" onclick="mostrarContenido1()">
-                            <img
-                                src="../../Galeria/Materia_horario.png" alt="horario">
-                                <br>
-                            Horario y Materias
-                        </a>
-                        <a href="#" onclick="mostrarContenido2()">
-                            <img
-                                src="../../Galeria/Usuarios.png" alt="academico">
-                                <br>
-                            Usuarios y Roles
-                        </a>
-                        <a href="#" onclick="mostrarContenido()">
-                            <img
-                                src="../../Galeria/peticion.png" alt="peticiones">
-                                <br>
-                            Peticiones y Solicitudes
-                        </a>
-                        <a href="../../Loguin/login.html">
-                            <img
-                                src="../../Galeria/cerrar-sesion.png" alt="salir">
-                                <br>
-                            Cerrar Sesion
-                        </a>
+                    <a href="#" onclick="mostrarContenido()">
+                        <img
+                            src="../../Galeria/Calificaciones.png"
+                            alt="calificaciones">
+                        <br>
+                        Calificaciones
+                    </a>
+                    <a href="#" onclick="mostrarContenido1()">
+                        <img
+                            src="../../Galeria/Materia_horario.png"
+                            alt="horario">
+                        <br>
+                        Horario y Materias
+                    </a>
+                    <a href="#" onclick="mostrarContenido2()">
+                        <img
+                            src="../../Galeria/Usuarios.png" alt="academico">
+                        <br>
+                        Usuarios y Roles
+                    </a>
+                    <a href="#" onclick="mostrarContenido()">
+                        <img
+                            src="../../Galeria/peticion.png" alt="peticiones">
+                        <br>
+                        Peticiones y Solicitudes
+                    </a>
+                    <a href="../../Loguin/login.html">
+                        <img
+                            src="../../Galeria/cerrar-sesion.png" alt="salir">
+                        <br>
+                        Cerrar Sesion
+                    </a>
                 </div>
             </div>
             <div id="MCalificaciones" class="oculto">
                 <div class="ModuloC">
-                      <button onclick="ocultarContenido()">Volver</button>
+                    <button onclick="ocultarContenido()">Volver</button>
                 </div>
             </div>
             <div id="MHorario" class="oculto">
@@ -55,29 +57,55 @@
                     <form>
 
                         <div class="campo1">
-                        <div class="codigo">
-                        <label for="codigo">Código de la materia:</label>
-                        <input type="text" id="codigo" name="codigo" required>
+                            <div class="codigo">
+                                <label for="codigo">Código de la materia:</label>
+                                <input type="text" id="codigo" name="codigo"
+                                    required>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-
-                      <div class="campo2">
-                        <div class="nombreM">
-                            <label for="nombre">Nombre de la materia:</label>
-                        <input type="text" id="nombre" name="nombre" required>
-                        </div>
-                      </div>
+                        <br>
                         
-                      
-                        <label for="nota">Nota final:</label>
-                        <input type="number" id="nota" name="nota" min="0" max="100" required>
-                      
+
+                        <div class="campo2">
+                            <div class="nombreM">
+                                <label for="nombre">Nombre de la materia:</label>
+                                <input type="text" id="nombre" name="nombre"
+                                    required>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="campo2">
+                            <div class="dias-container">
+                                <label for="dias">Días de clase:</label>
+                                <div class="dias-options">
+                                  <input type="checkbox" name="dias[]" value="Lunes" id="lunes">
+                                  <label for="lunes">Lunes</label>
+                            
+                                  <input type="checkbox" name="dias[]" value="Martes" id="martes">
+                                  <label for="martes">Martes</label>
+                            
+                                  <input type="checkbox" name="dias[]" value="Miércoles" id="miercoles">
+                                  <label for="miercoles">Miércoles</label>
+                            
+                                  <input type="checkbox" name="dias[]" value="Jueves" id="jueves">
+                                  <label for="jueves">Jueves</label>
+                            
+                                  <input type="checkbox" name="dias[]" value="Viernes" id="viernes">
+                                  <label for="viernes">Viernes</label>
+                            
+                                </div>
+                              </div>
+                        </div>
+                        <br>
+
+
                         <label for="faltas">Faltas:</label>
-                        <input type="number" id="faltas" name="faltas" min="0" required>
-                      
+                        <input type="number" id="faltas" name="faltas" min="0"
+                            required>
+
                         <input type="submit" value="Agregar">
-                      </form>
+                    </form>
                     <button onclick="ocultarContenido1()">Volver</button>
                 </div>
             </div>

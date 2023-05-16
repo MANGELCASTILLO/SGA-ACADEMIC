@@ -87,4 +87,26 @@ body{
 
   .volver{
     margin-top: 20px;
+    margin-left: 50px;
   }
+
+  .campo1{
+    margin-left: 80px;
+    display: inline-block;
+    padding: 20px;
+
+  }  
+
+    .campo2{
+    margin-left: 80px;
+    display: inline-block;
+    padding: 20px;
+  } 
+  
+
+  .campo3{
+    margin-left: 80px;
+    display: inline-block;
+    padding: 20px;
+  } 
+  

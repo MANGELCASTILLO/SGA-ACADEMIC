@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Document</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="Administrador.css">
         <script src="Administrador.js"></script>
     </head>
@@ -49,14 +50,32 @@
                       <button onclick="ocultarContenido()">Volver</button>
                 </div>
             </div>
-            <div id="MHorarioYMaterias" class="oculto">
+            <div id="MHorario" class="oculto">
                 <div class="ModuloC">
                     <form>
+                        <div class="campo1">
+                            <div class="IdEs">
+                            <label for="codigo">No° identificacion del Estduante:</label>
+                            <input type="number" id="idE" name="idE" required>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="campo2">
+                        <div class="codigo">
                         <label for="codigo">Código de la materia:</label>
                         <input type="text" id="codigo" name="codigo" required>
-                      
-                        <label for="nombre">Nombre de la materia:</label>
+                        </div>
+                    </div>
+                    <br>
+
+                      <div class="campo3">
+                        <div class="nombreM">
+                            <label for="nombre">Nombre de la materia:</label>
                         <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                      </div>
+                        
                       
                         <label for="nota">Nota final:</label>
                         <input type="number" id="nota" name="nota" min="0" max="100" required>
@@ -66,8 +85,7 @@
                       
                         <input type="submit" value="Agregar">
                       </form>
-                      
-                      <button class="volver" onclick="ocultarContenido()">Volver</button>
+                    <button onclick="ocultarContenido1()">Volver</button>
                 </div>
             </div>
             <div id="MUsuarios" class="oculto">

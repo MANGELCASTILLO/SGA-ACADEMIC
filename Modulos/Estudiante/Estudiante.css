@@ -98,9 +98,8 @@ body{
   }
   
   .radio-button:checked {
-    background-color: #0084ff;
+    background-color: #ccc;
   }
-
 
 
 

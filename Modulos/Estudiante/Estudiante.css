@@ -94,6 +94,10 @@ body{
     padding: 8px;
     text-align: left;
   }
+
+  .filas-alineadas td {
+    text-align: center;
+  }
   
   .table th {
     background-color: #f2f2f2;

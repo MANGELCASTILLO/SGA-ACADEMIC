@@ -121,8 +121,8 @@ body{
   
   .checkmark {
     position: relative; /* Cambiado a "relative" */
-    height: 20px;
-    width: 20px;
+    width: 10px; /* Reducir el tamaño del botón de opción */
+    height: 10px; /* Reducir el tamaño del botón de opción */
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 50%;
@@ -150,8 +150,7 @@ body{
   .radio-button-label .checkmark:after {
     top: 4px;
     left: 4px;
-    width: 6px; /* Reducir el tamaño del botón de opción */
-    height: 6px; /* Reducir el tamaño del botón de opción */
+
     border-radius: 50%;
     background: white;
   }

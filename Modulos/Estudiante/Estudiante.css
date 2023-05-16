@@ -104,12 +104,11 @@ body{
   }
   
   .radio-button-label {
-    position: relative;
-    display: flex; /* Para alinear verticalmente */
-    align-items: center; /* Alinear verticalmente */
+    display: flex;
+    align-items: center;
     cursor: pointer;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 14px;
     user-select: none;
   }
   
@@ -139,8 +138,11 @@ body{
   
   .checkmark:after {
     content: "";
-    position: absolute;
-    display: none;
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: white;
   }
   
   .radio-button-label input:checked ~ .checkmark:after {
@@ -150,9 +152,16 @@ body{
   .radio-button-label .checkmark:after {
     top: 4px;
     left: 4px;
-
     border-radius: 50%;
     background: white;
+  }
+  
+  .filas-alineadas td:first-child {
+    vertical-align: middle;
+  }
+
+  .volver{
+    margin-top: 20px;
   }
 
 
